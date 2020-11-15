@@ -1,0 +1,19 @@
+{
+  "name": "firebasehelloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-matvei/FirebaseHelloWorld.git"
+  },
+  "author": "Matthew James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthew-matvei/FirebaseHelloWorld/issues"
+  },
+  "homepage": "https://github.com/matthew-matvei/FirebaseHelloWorld#readme"
+}
