@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseHelloWorld", "FirebaseHelloWorld\FirebaseHelloWorld.csproj", "{8BB5199B-9E22-4553-A845-B12E2A35D04C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirebaseHelloWorld", "FirebaseHelloWorld", "{E82D0DFB-4538-41AB-864A-B63188F63EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseHelloWorld", "FirebaseHelloWorld\FirebaseHelloWorld\FirebaseHelloWorld.csproj", "{50BB6D52-B2D0-4289-86FD-92238D4F5576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +20,20 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Debug|x64.Build.0 = Debug|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Debug|x86.Build.0 = Debug|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Release|x64.ActiveCfg = Release|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Release|x64.Build.0 = Release|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Release|x86.ActiveCfg = Release|Any CPU
-		{8BB5199B-9E22-4553-A845-B12E2A35D04C}.Release|x86.Build.0 = Release|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Debug|x64.Build.0 = Debug|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Debug|x86.Build.0 = Debug|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Release|x64.ActiveCfg = Release|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Release|x64.Build.0 = Release|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Release|x86.ActiveCfg = Release|Any CPU
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50BB6D52-B2D0-4289-86FD-92238D4F5576} = {E82D0DFB-4538-41AB-864A-B63188F63EA9}
 	EndGlobalSection
 EndGlobal
